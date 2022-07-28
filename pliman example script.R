@@ -27,8 +27,8 @@ res <-measure_disease(pattern ="XXXXXX",
                       save_image = TRUE, 
                       #saves the processed pictures
                       dir_processed = "C:/XXXXXX/processed") 
-#folder for processed pictures
+                      #folder for processed pictures
 
-write.csv(res[["severity"]],"C:/XXXXXX/processed/sympare.csv") 
+write.csv(res[["severity"]],"C:/XXXXXX/processed/symparea.csv") 
 #saves the results als .csv
 
