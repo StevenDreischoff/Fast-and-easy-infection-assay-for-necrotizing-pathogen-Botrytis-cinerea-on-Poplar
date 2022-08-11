@@ -19,7 +19,7 @@ res <-measure_disease(pattern ="XXXXXX",
                       img_background = background, 
                       #reference for background
                       fill_hull = FALSE,
-                      #does not automatically filles holes. fill_hull = TRUE leads to overestimation of necrotic area
+                      #does not automatically filles holes. fill_hull = TRUE (default) leads to overestimation of necrotic area
                       dir_original = "C:/XXXXXX", 
                       #folder of your original files
                       save_image = TRUE, 
