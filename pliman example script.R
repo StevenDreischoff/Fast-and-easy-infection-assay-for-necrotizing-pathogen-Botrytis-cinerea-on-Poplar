@@ -18,12 +18,10 @@ res <-measure_disease(pattern ="XXXXXX",
                       #reference for symptoms
                       img_background = background, 
                       #reference for background
-                      parallel = FALSE,
-                      #computes more than one picture at a time DOES NOT WORK YET
                       fill_hull = FALSE,
-                      #does not automatically filles holes
+                      #does not automatically filles holes. fill_hull = TRUE leads to overestimation of necrotic area
                       dir_original = "C:/XXXXXX", 
-                      #folder of your files
+                      #folder of your original files
                       save_image = TRUE, 
                       #saves the processed pictures
                       dir_processed = "C:/XXXXXX/processed") 
